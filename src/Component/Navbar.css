@@ -1,0 +1,14 @@
+ .navbar{
+    height:80px;
+    background-color: #fd7e14;
+    color: white;
+    position: sticky;
+}
+.navbar-brand{
+    font-size:24px;
+    color: white;
+}
+.nav-link{
+    font-size: 20px;
+    color: white;
+} 

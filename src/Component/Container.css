@@ -1,0 +1,36 @@
+.dbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .im {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .inpam {
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+  }
+  
+  .pay{
+    margin-left:600px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3399cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .pay:hover {
+    background-color: #2879a5;
+  }
+  

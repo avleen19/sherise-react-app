@@ -1,0 +1,44 @@
+.footer {
+  margin-top:10px;
+  height: 300px;
+    background-color: #131313;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #logoname{
+    margin-left:10px;
+  }
+#firstcon{
+  height:250px;
+  width: 1500px;
+  /* border: 1px solid white; */
+
+}
+  .con{
+    margin-left: 50px;
+    height:300px;
+    width:700px;
+    color: #ffffff;
+    /* border: 1px solid #ffffff; */
+  /* Adjust width as needed */
+  }
+  .vis{
+    color: #ffffff;
+  }
+   #contwo{
+    margin-left: 100px;
+    color: #ffffff;
+  }
+  .con p {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .footpara:hover{
+    cursor: pointer;
+  }
+  .paralink{
+    color: #ffffff;
+    cursor: pointer;
+  }   
+ 

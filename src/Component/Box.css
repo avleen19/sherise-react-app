@@ -1,0 +1,19 @@
+.conbox{
+    margin-top:2px;
+    height:800px;
+    width:100%vw;
+    background: url("https://www.shutterstock.com/image-photo/group-happy-young-traditional-indian-260nw-2291916471.jpg");
+    background-size: cover;
+    background-position:center; 
+}
+.inner{
+    position: relative;
+    top:0px;
+    left:0px;
+    height:800px;
+    width:100%vw;
+    
+    background-color: #000000;
+    opacity: 0.9;
+}
+

@@ -1,0 +1,26 @@
+
+.card-con{
+    width:340px;
+    /* background-color: rgb(236, 197, 161); */
+    padding:16px;
+    /* border: 2px solid black; */
+    transition:3s;
+}
+
+#ab-img{
+    height:150px;
+    width: 150px;
+    margin-left:80px;
+ background-color:#fd7e14;
+}
+
+.card-con:hover{
+    background-color: black;
+   color: white;
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+.card-title{
+    margin-left:1px;
+}
+

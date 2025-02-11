@@ -1,0 +1,23 @@
+.flexbox{
+        height:1310px;
+        width:1000px;
+        margin:40px auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between; /* Distribute items evenly along the main axis */
+    
+}
+#focus{
+        /* margin-top: -100px; */
+        margin-left:480px;
+        color: rgb(18, 51, 136);
+        font-family:sans-serif ;
+        font-weight: bolder;
+     
+}
+.items{
+        flex-basis: calc(33.33% - 10px); /* Adjust as needed to fit 3 items in a row */
+        margin-bottom: 20px; /* Add margin for spacing between rows */
+        box-sizing: border-box; 
+}

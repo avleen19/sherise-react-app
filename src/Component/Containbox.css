@@ -1,0 +1,102 @@
+.inb{
+    height:220px;
+    width: 220px;
+    border: 6px solid rgb(6, 188, 79);
+    box-sizing: border-box;
+}
+.maintext{
+    display:none;
+}
+#maintext{
+    /* display:none; */
+   font-size:42px;
+   font-family: sans-serif;
+   font-weight: bolder;
+   color:#fd7e14;
+   position:absolute;
+   top:370px;
+   left:8px;
+}
+
+#on{
+    position: relative;
+    top:110px;
+    left:330px;
+    background: url("https://www.careindia.org/wp-content/uploads/2023/08/unnamed-3-389x231.jpg");
+    background-size: cover;
+    background-position:center;
+    transition:2s;  
+}
+#on:hover{
+    border: 10px solid #fd7e14;
+    transform:rotate(1turn);
+   scale: 1.5;
+
+}
+
+#tw{
+    position:relative;
+    bottom:110px;
+   left:640px;
+    background: url("https://www.careindia.org/wp-content/uploads/2023/07/unnamed-14-389x230.jpg");
+    background-size: cover;
+    background-position:center;
+    border: 6px solid rgb(209, 208, 205);
+    background-position-x:-80px;
+    transition:2s;  
+}
+#tw:hover{
+    border: 10px solid #fd7e14;
+    transform:rotate(1turn);
+   scale: 1.5;
+}
+#th{
+    position: relative;
+    top:70px;
+    left:230px;
+    background: url("https://www.careindia.org/wp-content/uploads/2022/05/the-impact-bg-389x231.jpg");
+    background-size: cover;
+    border: 6px solid rgb(83, 115, 244);
+    background-position:center;
+    transition:2s;  
+}
+#th:hover{
+    border: 10px solid #fd7e14;
+    transform:rotate(1turn);
+   scale: 1.5;
+}
+
+#fo{
+    position: relative;
+   bottom:148px;
+    left:520px;
+    background: url("https://www.careindia.org/wp-content/uploads/2022/04/counsling-389x231.jpg");
+    background-size: cover;
+    border: 6px solid rgb(230, 207, 3);
+    background-position:center;
+    transition:2s;  
+}
+#fo:hover{
+    border: 10px solid #fd7e14;
+    transform:rotate(1turn);
+   scale: 1.5;
+
+}
+#fi{
+    position: relative;
+   bottom:369px;
+    left:820px;
+    background: url("https://www.careindia.org/wp-content/uploads/2021/12/Empowering-Waste-Pickers-389x231.jpg");
+    background-size: cover;
+    background-position:center;
+    border: 6px solid rgb(246, 62, 11);
+    transition:2s;  
+}
+#fi:hover{
+    border: 10px solid #fd7e14;
+    transform:rotate(1turn);
+   scale:1.5;
+
+}
+
+

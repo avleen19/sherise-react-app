@@ -1,0 +1,98 @@
+body{
+    /* background-color: rgb(211, 237, 189); */
+}
+.complbox{
+    margin-bottom:150px;
+}
+.mainbox{
+    height:340px;
+    width: 340px;
+    /* border:1px solid black; */
+    padding: 8px;
+    position: relative;
+    border-radius:2px;
+    top:70px;
+    left: 180px;
+    transition-duration:2s;
+    background-color:rgb(180, 175, 175);
+}
+.inbox{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+    background: url("https://t3.ftcdn.net/jpg/05/92/51/62/360_F_592516238_AF7eIDYGKm5Y3UYp8Gg8XNsvP5LZb0q0.jpg");
+    background-size:cover;
+    background-position: center;
+}
+#two{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjVoH_xnYZ3J6rh43DabX_GFQLnT4YJwlJzQ&s");
+    background-size:cover;
+    background-position: center;
+}
+#three{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuMBQw4O7FwHnIQo26B4sb3CHElOtrLsxOjQ&s");
+    background-size:cover;
+    background-position: center;
+}
+#four{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJcwXX2g5Bu7PZZmqVKf_rCCPhZo_LyGwH9g&s");
+    background-size:cover;
+    background-position: center;
+}
+
+#hid{
+    display:none;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.mainbox:hover{
+    border: 15px solid #fd7e14;
+    background-color:#ffffff;
+    /* opacity: 0.9; */
+    
+    #hid{
+        position: relative;
+        top:12px;
+        left: 90px;
+        color:grey;
+        display:block;
+    }
+    
+}
+.descrip{
+    position:absolute;
+    top:200px;
+    left: 580px;
+    color: #fd7e14;
+}
+
+.matter{
+    height:190px;
+    width:600px;
+    /* border: 1px solid black; */
+    position:absolute;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: sans-serif;
+    color:rgb(81, 80, 80);
+    top:270px;
+    left:580px;
+    overflow: hidden;
+}
+.don{
+    position:absolute;
+    top:450px;
+    left: 800px;
+    height:50px;
+    width:120px;
+    font-size: 16px;
+    margin-top:20px;
+    /* border-radius:18px; */
+    background-color: #ffffff;
+    border: 2px solid #ebb505;
+}
+.don:hover{
+    background-color: #ebb505;
+    border: none;
+    color: #ffffff;
+}
